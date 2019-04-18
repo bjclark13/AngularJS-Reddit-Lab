@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="RedditApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> AngularJS Sub Reddit Awww </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="nav-container">
+
+        <div class="logo"><a href="https://www.reddit.com/">
+                Reddit
+        </div></a>
+
+        <ul class="nav-items">
+            <li class="nav-item"><a href="https://www.reddit.com/login/">Log In</a></li>
+            <li class="nav-item"><a href="https://www.reddit.com/wiki/search">Search</a></li>
+            <li class="nav-item"><a href="https://www.reddit.com/">Trending</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Awww Reddit</h1>
+        <reddit-feed></reddit-feed>
+    </section>
+
+
+    <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
+    <script src="app.module.js"></script>
+    <script src="reddit.service.js"></script>
+    <script src="components/redditFeed.js"></script>
+</body>
+
+</html>
